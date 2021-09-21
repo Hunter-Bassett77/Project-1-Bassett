@@ -3,7 +3,8 @@ Project 1 Bassett
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](https://app.diagrams.net/#G125UbvVZTegTWVkxVDTf30SiV8UqNMfum)
+![TODO: Update the path with the name of your diagram](![Screenshot (37)](https://user-images.githubusercontent.com/83594437/134100435-2ec03482-0ac1-4640-a2a7-cd98aa975536.png)
+)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _ansible____ file may be used to install only certain pieces of it, such as Filebeat.
 
