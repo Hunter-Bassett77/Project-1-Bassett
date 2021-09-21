@@ -3,7 +3,7 @@ Project 1 Bassett
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](![Netwok Diagram] (https://user-images.githubusercontent.com/83594437/134100775-bcd4ff22-9532-4010-b54e-5a41259aac95.png)
+Network Diagram (https://user-images.githubusercontent.com/83594437/134100775-bcd4ff22-9532-4010-b54e-5a41259aac95.png)
 )
 )
 
