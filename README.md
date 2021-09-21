@@ -105,3 +105,4 @@ edit the /etc/ansible/host file to add webservers/elkserver ip addr.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://52.148.139.221:5601/app/kibana#/home
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+Link to Interview questions and Kibana answers: https://drive.google.com/drive/folders/16kdIG3f3eQdjAzZsz_PAAHVXR2IQ4iez?usp=sharing
