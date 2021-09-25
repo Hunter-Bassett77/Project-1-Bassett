@@ -9,7 +9,6 @@ Network Diagram (https://user-images.githubusercontent.com/83594437/134100775-bc
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _ansible____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: /etc/ansible/pentest.yml
 
 This document contains the following details:
 - Description of the Topologu
@@ -25,15 +24,13 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly effieceint_, in addition to restricting access_ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_ They protect against things like DDOS attacks by shifiting traffic
+ They protect against things like DDOS attacks by shifiting traffic
 from server to server, A jumpbox gives access from a single node which is easy to monitor and secure
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __the data___ and system __logs___.
-- _TODO: What does Filebeat watch for?_Filebeat watches for changes in the file system takes note of when and what information has been changed
-- _TODO: What does Metricbeat record?_MetricBeat gets teh metric and statistics and ships them to whatever output you choose
+
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -63,10 +60,10 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_You can put commands into multiple servers from a single playbook
+
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 - Install: docker.io
 - Install: python.pip
 - Install: docker
@@ -81,13 +78,13 @@ ps output
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: Web-1 10.0.0.5, Web-2 10.0.0.6
+Web-1 10.0.0.5, Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_ FileBeat MetricBeat
+ FileBeat MetricBeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
+
 FileBeat collects the changes done MetricBeat collects metrics and statistics_
 
 ### Using the Playbook
@@ -98,7 +95,6 @@ SSH into the control node and follow the steps below:
 - Update the __hosts___ file to include destination ip of the elk server 10.1.0.4
 - Run the playbook, and navigate to _kibana___ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_/etc/ansible/file/filebeat_config.yml
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 edit the /etc/ansible/host file to add webservers/elkserver ip addr.
